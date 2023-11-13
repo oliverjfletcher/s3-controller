@@ -2577,6 +2577,11 @@ func (rm *resourceManager) newNotificationConfiguration(
 		res.SetTopicConfigurations(resf2)
 	}
 
+	var eventbridgeConfig *svcsdk.EventBridgeConfiguration
+	if r.ko.Spec.Notification.EventBridgeConfiguration != nil {
+		res.SetEventBridgeConfiguration(eventbridgeConfig)
+	}
+	
 	return res
 }
 
@@ -2722,6 +2727,10 @@ func (rm *resourceManager) setResourceNotification(
 			resf2 = append(resf2, resf2elem)
 		}
 		res.TopicConfigurations = resf2
+	}
+	var eventbridgeConfig = res.EventBridgeConfiguration
+	if eventbridgeConfig != nil {
+		res.EventBridgeConfiguration = eventbridgeConfig
 	}
 
 	return res
