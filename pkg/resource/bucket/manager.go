@@ -38,7 +38,7 @@ import (
 	"github.com/go-logr/logr"
 	corev1 "k8s.io/api/core/v1"
 
-	svcapitypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
+	svcapitypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
 )
 
 var (

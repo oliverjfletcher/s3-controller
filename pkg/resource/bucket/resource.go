@@ -22,7 +22,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	rtclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	svcapitypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
+	svcapitypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
 )
 
 // Hack to avoid import errors during build...

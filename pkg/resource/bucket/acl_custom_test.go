@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"testing"
 
-	bucket "github.com/aws-controllers-k8s/s3-controller/pkg/resource/bucket"
 	svcsdk "github.com/aws/aws-sdk-go/service/s3"
+	bucket "github.com/oliverjfletcher/s3-controller/pkg/resource/bucket"
 	"github.com/stretchr/testify/assert"
 )
 

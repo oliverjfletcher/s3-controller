@@ -24,7 +24,7 @@ import (
 	rtclient "sigs.k8s.io/controller-runtime/pkg/client"
 	k8sctrlutil "sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	svcapitypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
+	svcapitypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
 )
 
 const (

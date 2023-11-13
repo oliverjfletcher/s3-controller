@@ -18,7 +18,7 @@ package bucket
 import (
 	acktags "github.com/aws-controllers-k8s/runtime/pkg/tags"
 
-	svcapitypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
+	svcapitypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 	ackcompare "github.com/aws-controllers-k8s/runtime/pkg/compare"
 	ackerr "github.com/aws-controllers-k8s/runtime/pkg/errors"
 	ackrtlog "github.com/aws-controllers-k8s/runtime/pkg/runtime/log"
-	svcapitypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
 	svcsdk "github.com/aws/aws-sdk-go/service/s3"
+	svcapitypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
 )
 
 var (

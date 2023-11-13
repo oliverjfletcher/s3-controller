@@ -1,4 +1,4 @@
-module github.com/aws-controllers-k8s/s3-controller
+module github.com/oliverjfletcher/s3-controller
 
 go 1.19
 

@@ -21,7 +21,7 @@ import (
 
 	acktypes "github.com/aws-controllers-k8s/runtime/pkg/types"
 
-	svcapitypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
+	svcapitypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
 )
 
 // ClearResolvedReferences removes any reference values that were made
