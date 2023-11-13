@@ -32,12 +32,12 @@ import (
 	ctrlrt "sigs.k8s.io/controller-runtime"
 	ctrlrtmetrics "sigs.k8s.io/controller-runtime/pkg/metrics"
 
-	svctypes "github.com/aws-controllers-k8s/s3-controller/apis/v1alpha1"
-	svcresource "github.com/aws-controllers-k8s/s3-controller/pkg/resource"
+	svctypes "github.com/oliverjfletcher/s3-controller/apis/v1alpha1"
+	svcresource "github.com/oliverjfletcher/s3-controller/pkg/resource"
 
-	_ "github.com/aws-controllers-k8s/s3-controller/pkg/resource/bucket"
+	_ "github.com/oliverjfletcher/s3-controller/pkg/resource/bucket"
 
-	"github.com/aws-controllers-k8s/s3-controller/pkg/version"
+	"github.com/oliverjfletcher/s3-controller/pkg/version"
 )
 
 var (

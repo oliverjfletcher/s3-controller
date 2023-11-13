@@ -26,7 +26,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/go-logr/logr"
 
-	svcresource "github.com/aws-controllers-k8s/s3-controller/pkg/resource"
+	svcresource "github.com/oliverjfletcher/s3-controller/pkg/resource"
 )
 
 // resourceManagerFactory produces resourceManager objects. It implements the
